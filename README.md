@@ -1,16 +1,20 @@
-# Produto
+# Universidade
 
 Esta atividade é requisito da Avaliação Continuada 1
 
 ## 🚀 Começando
 
-*Crie uma classe que representa um produto. A classe deve ter os atributos, nome, marca, preço de custo e preço de venda. Deve ter também um método que calcula e retorna o lucro.
+*Uma conceituada universidade calcula a nota final de seus alunos de duas formas a depender da quantidade de avaliações.
 
-*Crie objetos dessa classe e escreva na tela seus atributos e o valor do lucro.
+*Até 2 avaliações a nota final será a média aritmética das notas. Caso tenha 3 notas será a média ponderada, onde a segunda nota tem o dobro do peso da primeira e a terceira tem o dobro do peso da segunda.
 
-*Crie uma classe para representar pessoas. O construtor da classe deve receber como parâmetros o nome completo, altura e a data de nascimento. Os objetos, logo após criados, devem criar automaticamente um email no formato nome.sobrenome@dominio.
+*Caso haja 4 notas, ac1, ac2, ag e af, a nota final será dada pela equação:
 
-*Desafio: A data de nascimento não pode ser posterior à data atual.
+*MF = (ac1 * 0,15) + (ac2 * 0,30) + (ag * 0,10) + (af * 0,45).
+
+*Nessa mesma universidade, um aluno será aprovado se sua nota for >= 5 e possuir ao menos 75% de presença. Contudo, nas disciplinas no formato EAD, não há presença e a aprovação será apenas baseada na nota, com o mesmo valor de corte das disciplinas presenciais.
+
+*Crie a classe aluno que implementa essas funções e os atributos que julgar necessários. Além disso, crie construtores e um método que imprime o nome, RA, nota final e situação (Aprovado/Reprovado).
 
 ### 📋 Pré-requisitos
 
@@ -46,4 +50,4 @@ Após abrir o pacote com os 3 Arquivos para o programa executar, entre no Arquiv
 
 ## ✒️ Autores
 
-* **Matheus Leone** - *Trabalho Inicial* - Produto
+* **Matheus Leone** - *Trabalho Inicial* - Universidade
